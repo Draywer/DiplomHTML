@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    display: block;
+}
+.content {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    height: 450px;
+    background-size: cover;
+
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-color: #000000;
+    position: relative;
+
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #000000;
+    opacity: 0.60;
+
+}
+
+
+
+
+.header-content {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+.header-navigation {
+    box-sizing: border-box;
+
+}
+
+.header-logo {
+
+}
+
+.header-menu {
+
+}
+
+.header-description {
+    width: 691px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header-description-title {
+    text-align: center;
+    line-height: 75px;
+    font-size: 45px;
+    font-family: "Open Sans", serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.page-content {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b6ad34;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.main {
+    width: 793px;
+    background-color: lightblue;
+    box-sizing: border-box;
+
+}
+
+.aside {
+    width: 406px;
+    background-color: darkseagreen;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: palegreen;
+}
