@@ -3,7 +3,9 @@ body {
     font-family: arial, sans-serif;
     font-size: 16px;
     display: block;
+    min-width: 1660px;
 }
+
 .content {
     width: 1200px;
     padding-left: 15px;
@@ -37,39 +39,74 @@ body {
 }
 
 
-
-
 .header-content {
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 1;
-    display: flex;
 }
+
 .header-navigation {
-    box-sizing: border-box;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 .header-logo {
+    width: 179px;
+    box-sizing: border-box;
 
 }
 
 .header-menu {
+    box-sizing: border-box;
 
+}
+
+.header-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.header-menu-list-item {
+    box-sizing: border-box;
+}
+.header-menu-list-item:nth-child(n+2){
+    padding-left: 23px;
+}
+
+.header-menu-list-item-link {
+    font-family: "Open Sans", serif;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.header-menu-list-item-link:hover {
+    border-bottom: 2px solid #ffffff;
 }
 
 .header-description {
     width: 691px;
-    margin: auto;
-    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 53px;
 }
 
 .header-description-title {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
-    line-height: 75px;
-    font-size: 45px;
     font-family: "Open Sans", serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 75px;
     text-transform: uppercase;
     color: #ffffff;
 }
