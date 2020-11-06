@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: arial, sans-serif;
     font-size: 16px;
-    /*display: block;*/
+    display: block;
     min-width: 1660px;
 }
 
@@ -49,7 +49,7 @@ body {
 .header-navigation {
     padding-top: 25px;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
     align-items: flex-end;
 
