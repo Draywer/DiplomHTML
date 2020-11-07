@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-    width: 1200px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -106,17 +106,35 @@ body {
     margin-right: auto;
     background-color: #b6ad34;
     display: flex;
+    justify-content: space-between;
 }
 
 .main {
-    width: 793px;
     background-color: lightblue;
+    width: 778px;
     box-sizing: border-box;
 
 }
+.main-content {
+    display: flex;
+justify-content: space-between;
+}
+
+.main-content-image {
+    width: 381px;
+    box-sizing: border-box;
+}
+
+.main-content-news {
+    width: 367px;
+    box-sizing: border-box;
+    background-color: darkcyan;
+}
+
+
 
 .aside {
-    width: 406px;
+    width: 272px;
     background-color: darkseagreen;
     box-sizing: border-box;
 }
