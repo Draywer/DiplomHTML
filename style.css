@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: "Open Sans", arial, sans-serif;
@@ -117,14 +131,13 @@ p {
 }
 
 .main {
-    /*background-color: lightblue;*/
+    background-color: lightblue;
     width: 778px;
     box-sizing: border-box;
 
 }
 
 .post {
-    /*height: 292px;*/
     display: flex;
     justify-content: space-between;
 }
@@ -136,6 +149,7 @@ p {
 .post-image {
     width: 381px;
     box-sizing: border-box;
+    background-color: #d9d3c6;
 }
 
 .post-news {
