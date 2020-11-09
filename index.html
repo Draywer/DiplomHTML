@@ -9,8 +9,11 @@
 <header class="header">
     <div class="content header-content">
         <nav class="header-navigation">
-            <img class="header-logo" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
-                 alt="Логотип">
+            <a class="header-logo-link" href="#">
+                <img class="header-logo"
+                     src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg"
+                     alt="Логотип">
+            </a>
             <ul class="header-menu-list">
                 <li class="header-menu-list-item">
                     <a class="header-menu-list-item-link" href="#">Главная</a>
@@ -379,7 +382,8 @@
                     <span class="search-label">Хотите найти что-то? Используйте поиск</span>
                     <input type="search" class="search-field" placeholder="Найти..." required>
                 </label>
-                <button class="search-button"></button>
+                <button class="search-button"><span class="search-button-label">Нажмите кнопку для старта поиска</span>
+                </button>
             </form>
         </section>
         <section class="aside-section">
@@ -400,7 +404,7 @@
                 <h4 class="section-title">Теги</h4>
             </div>
             <div class="tag">
-                <ul class="tag-list">
+                <ul class="tag-list-items">
                     <li class="tag-list-item">
                         <a class="tag-list-item-link" href="#">Fasion</a>
                     </li>
@@ -434,7 +438,7 @@
                 <h4 class="section-title">Темы</h4>
             </div>
             <div class="category">
-                <ul class="category-list">
+                <ul class="category-list-items">
                     <li class="category-list-item">
                         <a class="category-list-item-link" href="">Красота</a>
                         <span class="category-count">12</span>
