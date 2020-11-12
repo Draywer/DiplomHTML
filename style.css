@@ -139,6 +139,7 @@ p {
 .article {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .article:nth-child(n+2) {
